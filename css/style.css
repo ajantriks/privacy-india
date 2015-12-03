@@ -34,10 +34,11 @@ p a:hover {
 
 
 h2 {
+	font-family: 'Roboto Mono', sans-serif;
 	font-size: 20px;
 	color: #666;
-	line-height: 32px;
-	margin-top: 10px;
+	line-height: 24px;
+	margin: 10px 0 20px 0;
 }
 
 h3 {
@@ -52,6 +53,10 @@ h3 {
 
 /* Navigation
 -------------------------------------------------- */
+
+.navbar {
+	font-family: 'Roboto Mono', sans-serif;
+}
 
 .navbar-inverse {
 	background-color: #DA6304;
@@ -113,6 +118,13 @@ h3 {
 .navbar-collapse {
 	border-top: 0px solid transparent;
 	box-shadow: none;
+}
+
+/* Mind Map
+-------------------------------------------------- */
+
+#mind-map {
+	margin: 50px 0;
 }
 
 /* Carousel
